@@ -4,7 +4,43 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    currentTab:0,
+    titleDataArr:[
+      {
+        title:'全部',
+      },
+      {
+        title: '消费',
+      },
+      {
+        title: '充值',
+      },
+    ],
+
+    contentAllDataArr: [
+      {
+        title: '1',
+      },
+      {
+        title: '2',
+      }
+    ],
+    contentConsumpDataArr: [
+      {
+        title: '1',
+      },
+      {
+        title: '2',
+      }
+    ],
+    contentRechargeDataArr: [
+      {
+        title: '1',
+      },
+      {
+        title: '2',
+      }
+    ]
   },
   swichNav: function (e) {
     console.log(e);

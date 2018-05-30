@@ -2,23 +2,48 @@
 .swiper-tab {    
   display: flex;    
   flex-direction: row;    
-  line-height: 80rpx;    
-  border-bottom: 2rpx solid #fff;    
+  line-height: 98rpx;    
+  border-bottom: 2rpx solid #fff;  
 }    
+
 .tab-item {    
-  width: 33.3%;    
+  width: 33.3%;  
   text-align: center;    
-  font-size: 15px;    
-  color: #777;    
+  font-size: 36rpx;    
+  color: rgb(51, 51, 51); 
 }    
 .swiper {    
-  height: 1120rpx;    
+  /* height: 1120rpx;     */
   background: #ffffff;    
 }    
 .on {    
   color: black;    
   border-bottom: 5rpx solid #5E97E6;    
 }  
+
+
+.item{
+  height: 190rpx;
+  position: relative;
+}
+
+.itemTitle{
+  left: 46rpx;
+  top: 58rpx;
+  font-size: 32rpx;
+  color: rgb(51, 51, 51);
+  position: absolute;
+}
+
+.numberTitle{
+  top: 60rpx;
+  right: 60rpx;
+}
+
+.dateTitle{
+  
+}
+
 /*全部*/ 
 .cz1{
   width: 750rpx;
