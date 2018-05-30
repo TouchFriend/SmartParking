@@ -1,0 +1,10 @@
+<!--pages/lxkf/lxkf.wxml-->
+<button class='table' hover-class='h'>客服电话</button>
+<button  class='table1' hover-class='h'>客服QQ</button>
+<button class='table2' hover-class='h'>客服微信</button>
+<text class='fw'>服务时间：9:00~18:00</text>
+<text class='dh'>0591-8343-2055</text>
+<text class='QQ'>602253614</text>
+<view class='ma'>
+<image src='http://www.chongdx.com/style/images/ma2.jpg'></image>
+ </view>

@@ -1,0 +1,30 @@
+<!--pages/mrsz/mrsz.wxml-->
+<view class="table"> </view>
+<view class="beijing"> </view>
+<text class='text1'>绑定默认道闸</text>
+<view class='mrsz'>
+<image src='../img/2.png'></image></view>
+<text class='tj'>添加道闸</text>
+<view class="warp">
+ <image src='../img/one.png' ></image>
+ </view>
+ <view class="two">
+ <image src='../img/two.png' ></image>
+ </view>
+ <text class='zd1' >道闸1</text>
+ <text class='D'>融侨锦江A区东门</text>
+ <text class='zd2' >道闸2</text>
+ <text class='N'>融侨锦江A区南门</text>
+ <text class='zhushi'> 注释：将最近一次打开的道闸设置为默认道闸</text>
+ <text class='cd'>默认充电模式</text>
+ <view class="three">
+ <image src='../img/three1.png' ></image>
+ </view>
+ <text class='jf'>默认充电模式：4小时/2.5元</text>
+ <view class='sm'>
+<image src='../img/3.png'></image></view>
+<text class='tt'>扫码后自动选择默认充电模式启动充电</text>
+<button class='sybz' hover-class="none">用户协议</button>
+<view class='fwzc'>
+<image src='../img/fwzc.png'></image></view>
+ <button class='luntan' hover-class="none">隐私协议</button>

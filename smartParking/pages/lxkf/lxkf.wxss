@@ -1,0 +1,48 @@
+/* pages/lxkf/lxkf.wxss */
+page{
+  background: #EFEFEF
+}
+.table{
+  height: 120rpx;
+  width: 750rpx;
+  background:#ffffff; 
+  text-align: left;
+}
+.table1{
+  width: 750rpx;
+  height: 120rpx;
+  background: #ffffff;
+  text-align: left
+}
+.table2{
+  width: 750rpx;
+  height: 450rpx;
+  background: #ffffff;
+  text-align: left;
+}
+.fw{
+  position: absolute;
+  top:720rpx;
+  left: 30rpx;
+  color: #999999;
+  font-size: 35rpx
+}
+.dh{
+  position: absolute;
+  top: 30rpx;
+  left: 400rpx;
+  color: #5E97E6;
+}
+.QQ{
+  position: absolute;
+  top: 150rpx;
+  left: 500rpx;
+  color: #5E97E6;
+}
+.ma image {
+width:250rpx;
+height:230rpx;
+position: absolute;
+left: 265rpx;
+top: 350rpx;
+}

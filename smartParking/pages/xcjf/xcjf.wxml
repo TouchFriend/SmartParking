@@ -1,0 +1,11 @@
+<!--pages/xcjf/xcjf.wxml-->
+<view class="warp">
+ <image src='../img/tingchejifei.png' ></image>
+ </view>
+ <view class='wenben' >支付金额</view>
+<text class='qian'>￥8.00</text>
+<text class='time'>已停1天2小时3分钟</text>
+<text class='shebei'>设备：HAD1525822</text>
+<text class='didian'>地点： 融侨锦江A区</text>
+<button class='anniu'>付费离开</button>
+<button class='guize'>付费规则</button>

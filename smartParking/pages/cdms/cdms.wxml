@@ -1,0 +1,34 @@
+<!--pages/cdms/cdms.wxml-->
+<view class='screen'>
+</view>
+<text class='didian'>地点：融侨锦江A区</text>
+<text class='index'>充电插座：11790101-1#</text>
+<text class='text'>选择充电模式</text>
+<view class='btGroup'>
+<button hover-class='shadow' class='btn-item'>2.5元</button>
+<button hover-class='shadow' class='btn-item'>5.0元</button>
+</view>
+<view class='btGroup'>
+<button hover-class='shadow' class='btn-item'>7.5元</button>
+<button hover-class='shadow' class='btn-item'>10元</button>
+</view>
+<text class='ziti'>提示：</text><text class='n'>请将充电器连接好电动车，选择充电时间，支付
+ 成功后开始充电</text>
+ <text class="xiaos4">4小时</text>
+ <text class="xiaos8">8小时</text>
+ <text class="xiaos12">12小时</text>
+<text class="xiaos16">16小时</text>
+<view class="cd1">
+ <image src='../img/chongdian.png' ></image>
+ </view>
+ <view class="cd2">
+ <image src='../img/chongdian.png' ></image>
+ </view>
+ <view class="cd3">
+ <image src='../img/chongdian.png' ></image>
+ </view>
+ <view class="cd4">
+ <image src='../img/chongdian.png' ></image>
+ </view>
+ 
+ 

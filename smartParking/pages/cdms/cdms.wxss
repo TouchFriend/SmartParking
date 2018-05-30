@@ -1,0 +1,124 @@
+/* pages/cdms/cdms.wxss */
+.btGroup{
+  display: flex;
+  flex-direction: row;
+}
+.screen{
+  color: #ffffff;
+  font-size: 36rpx;
+  background: #5e97e6;
+  text-align: left;
+  margin-left: 0px;
+  height:130px;
+}
+.didian{
+  position: absolute;
+  top: 40rpx;
+  left: 60rpx;
+  color: #F0F0F0
+}
+.index{
+  font-size: 36rpx;
+  text-align: left;
+  margin-left:100rpx;
+  margin:20rpx ;
+  position: absolute;
+  top: 100rpx;
+  left: 40rpx;
+  color: #F0F0F0
+}
+.btn-item{
+ width: 600rpx;
+ height:150rpx;
+ text-align: center;
+ color: #5e97e6;
+ background: #ffffff;
+ margin:20rpx 20rpx 10rpx;
+ font-weight:900;
+ box-shadow: 5px 5px 5px #f6f9fd;
+ font-size: 40rpx;
+}
+.text{
+  font-size: 15pt;
+  text-align:left;
+  margin-left:40rpx;
+  margin:60rpx;
+  font-weight: 500;
+  line-height:100rpx
+}
+.ziti{
+ color: #999999;
+ font-size: 30rpx;
+ position: absolute;
+ top:750rpx;
+  left: 30rpx;
+
+}
+.shadow{
+  background: #F0F0F0
+}
+.xiaos4{
+  position: absolute;
+  top: 470rpx;
+  left: 180rpx;
+  font-size: 30rpx;
+  color: #5E97E6;
+}
+.xiaos8{
+  position: absolute;
+  top: 470rpx;
+ right: 130rpx;
+  font-size: 30rpx;
+  color: #5E97E6;
+}
+.xiaos12{
+  position: absolute;
+  top: 650rpx;
+  left: 160rpx;
+  font-size: 30rpx;
+  color: #5E97E6;
+}
+
+.xiaos16{
+  position: absolute;
+  top: 650rpx;
+  right: 120rpx;
+  font-size: 30rpx;
+  color: #5E97E6;
+}
+.n{
+  color: #999999;
+ font-size: 30rpx;
+ position: absolute;
+ top:750rpx;
+  left: 110rpx;
+}
+.cd1 image{
+ width:9pt;
+ height:15pt;
+ position: absolute;
+ top: 470rpx;
+ left: 140rpx;
+}
+.cd2 image{
+ width:9pt;
+ height:15pt;
+ position: absolute;
+ top: 470rpx;
+right: 220rpx;
+}
+.cd3 image{
+ width:9pt;
+ height:15pt;
+ position: absolute;
+ top: 650rpx;
+ left: 130rpx;
+}
+.cd4 image{
+ width:9pt;
+ height:15pt;
+ position: absolute;
+ top: 650rpx;
+right: 220rpx;
+}
+

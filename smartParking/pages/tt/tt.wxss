@@ -1,0 +1,123 @@
+/* pages/tingche/tingche.wxss */
+
+
+.topView{
+  left: 0rpx;
+  right: 0rpx;
+  top: 0rpx;
+  height: 296rpx;
+  background-color: rgb(94, 151, 230);
+  position: absolute;
+}
+
+.yuan{
+  top: 66rpx;
+  left: 66rpx;
+  font-size: 34rpx;
+  color: white;
+  position:absolute;
+}
+
+.index{
+  top: 148rpx;
+  left: 61rpx;
+  font-size: 62rpx;
+  color: white;
+  position: absolute;
+}
+
+.middleView{
+  left: 0rpx;
+  right: 0rpx;
+  top: 296rpx;
+  height: 541rpx;
+  /* background-color: orange; */
+  position: absolute;
+}
+
+.middleText{
+  left: 59rpx;
+  top: 51rpx;
+  font-size: 32rpx;
+  color: rgb(51, 51, 51);
+  position: absolute;
+}
+
+.btn-item{
+ width: 219rpx;
+ height:120rpx;
+ color: rgb(94, 151, 230);
+ text-align: center;
+ background: white;
+ box-shadow: 5px 5px 5px #eef1f4;
+ border-color: rgba(94, 151, 230, 0.3);
+ position: absolute;
+}
+
+.bottomView{
+  left: 0rpx;
+  right: 0rpx;
+  top: 837rpx;
+  height: 300rpx;
+  /* background-color: red; */
+  position: absolute;
+}
+
+.recharge{
+  width: 689rpx;
+  height: 86rpx;
+  font-size: 32rpx;
+  background-color:#70a6f1;
+  color: white;
+}
+
+.tip{
+  font-size: 30rpx;
+  color: rgb(94, 151, 230)
+}
+
+.btGroup{
+  display: flex;
+  flex-direction: row;
+}
+.screen{
+  color: #ffffff;
+  font-size: 17px;
+  background: #5e97e6;
+  text-align: left;
+  height:130px;
+}
+
+
+
+
+
+
+.ziti{
+ width: 350rpx;
+ height: 110rpx;
+ text-align: center;
+ color: #5e97e6;
+ background: #ffffff;
+ margin:20rpx 20rpx 10rpx;
+ box-shadow: 5px 5px 5px #eef1f4;  
+ font-size: 12pt;
+ margin-bottom: 150rpx;
+}
+.shadow{
+  background: #F0F0F0
+}
+.text1{
+  font-size: 30rpx;
+  color: #999999;
+  position: absolute;
+  top: 925rpx;
+  left: 90rpx;
+}
+.icon image{
+  height: 40rpx;
+  width: 40rpx;
+  position: absolute;
+  top: 925rpx;
+  left: 40rpx;
+}

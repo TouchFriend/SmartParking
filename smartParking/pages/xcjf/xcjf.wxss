@@ -1,0 +1,47 @@
+/* pages/xcjf/xcjf.wxss */
+page{
+  background: #EFEFEF
+}
+.warp image {
+    width: 700rpx;
+    height:800rpx;
+    margin-top:30rpx; 
+   margin-left: 25rpx;
+}
+.shebei{
+  text-align: center;
+ position: absolute;
+ top: 540rpx;
+ left: 220rpx;
+ color: #999999;
+font-size: 34rpx;
+}
+.didian{
+text-align: center;
+ position: absolute;
+ top: 600rpx;
+ left: 220rpx;
+ color: #999999;
+font-size: 33rpx;
+}
+.anniu{
+   height:90rpx;
+   width: 508rpx;
+   position: absolute;
+   top:680rpx;
+   motion: 730rpx;
+   left: 120rpx;
+   background: #FF7E41;
+   color: #EFEFEF
+}
+.guize{
+  height: 55rpx;
+  width: 165rpx;
+  line-height: 56rpx;
+  position: absolute;
+  top: 50rpx;
+  left: 540rpx;
+  background: #EBEBEB;
+  color: #999999;
+  font-size: 25rpx;
+}

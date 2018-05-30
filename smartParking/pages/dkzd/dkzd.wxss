@@ -1,0 +1,160 @@
+/* pages/dkzd/dkzd.wxss */
+page{
+  background: #ffffff
+}
+
+.topView{
+  top: 0rpx;
+  left: 0rpx;
+  right: 0rpx;
+  height: 94rpx;
+  background-color: white;
+  position: absolute;
+}
+.topText{
+  left: 22rpx;
+  top: 26rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: Regular;
+  color: rgb(51, 51, 51);
+  position: absolute;
+}
+
+.contentView{
+  left: 0rpx;
+  right: 0rpx;
+  top: 94rpx;
+  position: absolute;
+}
+
+.doorItem{
+  width: 709rpx;
+  height: 161rpx;
+  left: 22rpx;
+  /* background-color: orange; */
+  position: absolute;
+}
+
+.itemImage{
+  width: 709rpx;
+  height: 161rpx;
+  left: 0rpx;
+  top: 0rpx;
+  position: absolute;
+}
+
+.itemTitle{
+  left: 48rpx;
+  top: 23rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: Regular;
+  color: white;
+  position: absolute;
+}
+
+.itemName{
+  left: 49rpx;
+  top: 84rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: Regular;
+  color: white;
+  position: absolute;
+}
+
+.tip{
+  left: 46rpx;
+  font-size: 28rpx;
+  color: rgb(153, 153, 153);
+  position: absolute;
+}
+
+
+.warp image {
+width:700rpx;
+height:170rpx;
+display:inline-block;
+overflow:hidden;
+position: absolute;
+top: 100rpx;
+left: 20rpx;
+right: 10rpx;
+}
+
+.two image{
+ width:700rpx;
+height:170rpx;
+position: absolute;
+top: 340rpx;
+left: 20rpx;
+right: 10rpx;
+}
+.three image{
+width:700rpx;
+height:170rpx;
+position: absolute;
+top: 580rpx;
+left: 20rpx;
+right: 10rpx;
+}
+.wenben{
+  text-align: left;
+  position: absolute;
+  left: 20rpx;
+  top: 20rpx;
+  color: #333333;
+  font-size: 35rpx;
+}
+.zd1{
+position: absolute;
+top: 120rpx;
+left: 70rpx;
+padding-bottom:10rpx;
+font-size: 35rpx;
+color: #ffffff
+}
+.zd2{
+position: absolute;
+top: 360rpx;
+left: 70rpx;
+font-size: 35rpx;
+color: #ffffff
+}
+.zd3{
+position: absolute;
+top: 600rpx;
+left: 70rpx;
+font-size: 35rpx;
+color: #ffffff
+}
+.zhushi{
+position: absolute;
+top: 280rpx;
+left: 45rpx;
+font-size: 30rpx;
+color: #999999
+}
+.D{
+position: absolute;
+top: 190rpx;
+left: 70rpx;
+padding-bottom:10rpx;
+font-size: 35rpx;
+color: #ffffff
+}
+.N{
+position: absolute;
+top: 430rpx;
+left: 70rpx;
+font-size: 35rpx;
+color: #ffffff
+}
+.NE{
+position: absolute;
+top: 670rpx;
+left: 70rpx;
+font-size: 35rpx;
+color: #ffffff
+}

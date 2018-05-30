@@ -1,0 +1,81 @@
+<!--pages/xfjl/xfjl.wxml-->
+ <view class="swiper-tab">    
+    <view class="tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">全部</view>    
+    <view class="tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">消费</view>    
+    <view class="tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">充值</view>    
+  </view>       
+  <swiper class="swiper" current="{{currentTab}}" duration="200" bindchange="swiperChange">  
+  <!--全部-->  
+<swiper-item>
+<view class='cz1'>
+<text >充值5元</text>
+</view>
+<text class='t'>+5</text>
+<text class='sj'>2018-03-15 15</text>
+<text class='ye'>余额：171元</text>
+<view class='cz2'>
+<text >充值10元</text>
+</view>
+<text class='t1'>+10</text>
+<text class='sj1'>2018-03-15 15</text>
+<text class='ye1'>余额：161元</text>
+<view class='table'>
+<text>【充电】</text>
+</view>
+<text class='yaun'>-9</text>
+<text class='qian'>4小时/2.5元</text>
+<text class='shijian'>2018-03-15 15</text>
+<text class='yue'>余额：152元</text>
+<view class='table1'>
+<text>【停车】</text>
+</view>
+<text class='yaun1'>-2.5</text>
+<text class='qian1'>1小时/2.5元</text>
+<text class='shijian1'>2018-03-15 15</text>
+<text class='yue1'>余额：152元</text>
+<view class='v'></view>
+</swiper-item>
+<!--消费-->
+<swiper-item>
+<view class='table2'>
+<text>【充电】</text>
+</view>
+<text class='yaun2'>-9</text>
+<text class='qian2'>4小时/2.5元</text>
+<text class='shijian2'>2018-03-15 15</text>
+<text class='yue2'>余额：152元</text>
+<view class='table3'>
+<text>【停车】</text>
+</view>
+<text class='yaun3'>-2.5</text>
+<text class='qian3'>1小时/2.5元</text>
+<text class='shijian3'>2018-03-15 15</text>
+<text class='yue3'>余额：152元</text>
+</swiper-item>
+<!--充值-->
+<swiper-item>
+<view class='screen'>
+<text class='yuan'>当前金额(元)</text>
+<text class='index'>120.00</text>
+</view>
+<text class='text'>充值金额</text>
+<view class='btGroup'>
+<button hover-class='shadow' class='btn-item'>5元</button>
+<button hover-class='shadow' class='btn-item'>10元</button>
+<button hover-class='shadow' class='btn-item'>15元</button>
+</view>
+<view class='btGroup'>
+<button hover-class='shadow' class='btn-item'>20元</button>
+<button hover-class='shadow' class='btn-item'>30元</button>
+<button hover-class='shadow' class='ziti'>其他金额</button>
+</view>
+<button hover-class='shadow' class='bottom' >立即充值</button>
+<text class='text1'>我已阅读并同意《关于充值的特别提醒和约定》</text>
+<view class="icon">
+<image src='../img/icon.png'></image>
+</view>
+
+
+
+</swiper-item>
+</swiper>

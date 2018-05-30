@@ -1,0 +1,8 @@
+{
+    "navigationBarBackgroundColor": "#5E97E6",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "停车计费",
+    "backgroundColor": "#FF00ff",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  }

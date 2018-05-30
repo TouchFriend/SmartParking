@@ -1,0 +1,50 @@
+<!--pages/yjfk2/yjfk2.wxml-->
+<view class="table">
+<text class='miaoshu'>故障描述</text>
+<text class='zhaopian'>上传故障照片（1~3张）</text>
+<button class='tijiao'>提交</button>
+<textarea  maxlength="500"class="weui-textarea" placeholder="文字描述故障问题..." >
+</textarea>
+</view>
+<view class='view_item'>
+<input class="input_" placeholder="请填写您的真实姓名" placeholder-style="color: gray" bindinput="onNamelistener" placeholder-class='input_placeholder' />
+<text class='inputext'>姓名</text>
+</view>
+<view class='view_item2'>
+<input class="input_2" type='number' placeholder="请输入有效联系方式" placeholder-style="color: gray" bindinput="onNamelistener" placeholder-class='input_placeholder' />
+<text class='inputext2'>联系电话</text>
+</view>
+<button class='shequ'hover-class="none"></button>
+<button class='shebei'hover-class="none"></button>
+<view class='sq'>居住社区</view>
+<view class='gz'>故障设备号</view>
+<text class='xiaoqu'>怡园小区</text>
+<text class='sz'>11700101</text>
+<view class="one">
+ <image src='../img/fwzc.png' ></image>
+ </view>
+ <view class="two">
+ <image src='../img/fwzc.png' ></image>
+ </view>
+ <button class='zp1'>
+ </button>
+ <view class='zp2'></view>
+ <view class='zp3'></view>
+ <view class="zhaop">
+ <image src='../img/sczp.png' ></image>
+  </view>
+  <view class="table1">
+  <button class='yuying'></button>
+  <view class='yuying'>
+  <image src='../img/yuying.png'></image>
+  </view>
+  <text class='miao'>16″</text>
+  <view class='tubiao'>
+  <image src='../img/tubiao1.png'></image>
+  </view>
+  </view>
+
+
+ 
+
+

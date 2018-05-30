@@ -1,0 +1,35 @@
+<!--pages/dkzd/dkzd.wxml-->
+<view class='containerView'>
+    <view class='topView'>
+    <text class='topText'>请选择要打开的道闸</text>
+  </view>
+  <view class='contentView'>
+    <block wx:for='{{doorDataArr}}' wx:key='contentView'>
+      <view class='doorItem' style='top:{{index==0 ? index * 241 : 241 + (index - 1) * 216 }}rpx'>
+        <image class='itemImage' src='{{item.img}}' mode='aspectFill'></image>
+        <text class='itemTitle'>{{item.title}}</text>
+        <text class='itemName'>{{item.name}}</text>
+      </view>
+      <text class='tip' wx:if="{{index == 0}}" style='top:{{178 + index * 230 }}rpx'>注释：将最近一次打开的道闸设置为默认道闸</text>
+    </block>
+  </view>
+</view>
+
+<!-- <text class='wenben'>请选择要打开的匝道</text>
+<view class="warp">
+ <image src='../img/one.png' ></image>
+ </view>
+ <view class="two">
+ <image src='../img/two.png' ></image>
+ </view>
+ <view class="three">
+ <image src='../img/three.png' ></image>
+ </view>
+ <text class='zd1' >道闸1</text>
+ <text class='D'>融侨锦江A区东门</text>
+ <text class='zd2' >道闸2</text>
+ <text class='N'>融侨锦江A区南门</text>
+<text class='zd3' >道闸3</text>
+<text class='NE'>融侨锦江A区北门</text>
+<text class='zhushi'> 注释：将最近一次打开的道闸设置为默认道闸</text> -->
+

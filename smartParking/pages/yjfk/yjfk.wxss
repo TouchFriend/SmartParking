@@ -1,0 +1,165 @@
+/* pages/gzfk/gzfk.wxss */
+page{
+  background: #efefef
+}
+.xm{
+ position: absolute;
+ top: 60rpx;
+}
+.dianhua{
+  position: absolute;
+  top:130rpx;
+}
+.table{
+  background-color:#ffffff;
+   position: absolute;
+   top: 380rpx;
+   height:823rpx;
+   width:750rpx;
+   display: flex;
+   flex-wrap: wrap;
+}
+.shequ{
+ position: absolute;
+ top:235rpx;
+  height: 135rpx;
+  width: 750rpx;
+ background: #ffffff;
+}
+.miaoshu{
+ position: absolute;
+ top: 25rpx;
+ left: 30rpx;
+}
+.wenti{      
+ position: absolute;
+ top: 150rpx;
+ left: 30rpx;
+}
+.yuying{
+ height: 90rpx;
+ width:700rpx;
+ position: absolute;
+ top: 700rpx;
+ left: 30rpx;
+ background: rgb(243, 243, 243)
+}
+.tijiao{
+  height: 100rpx;
+  width: 700rpx;
+  position: absolute;
+  bottom: 20rpx;
+  left: 30rpx;
+  background: #5E97E6;
+  color: white
+}
+.zhaopian{
+ position: absolute;
+ top: 400rpx;
+ font-size: 11rxp;
+ margin-top: 20rpx;
+}
+.weui-textarea{
+ width: 700rpx;
+ position: absolute;
+ top: 100rpx;
+ left: 30rpx;
+ background: rgb(248, 248, 248);
+ padding-bottom: 450;
+}
+ .view_item{
+  width: 750rpx;
+  height: 120rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  position: absolute;
+  top: 20rpx;
+  background: #ffffff
+}
+.input_{
+  color: #333333;
+  position: absolute;
+ left: 220rpx;
+  background: #ffffff
+}
+.view_item2{
+  width: 750rpx;
+  height: 120rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  position: absolute;
+  top: 100rpx;
+  background: #ffffff
+}
+.input_2{
+  color: #333333;
+  position: absolute;
+  left: 220rpx;
+  background: #ffffff
+}
+.sq{
+ position: absolute;
+ top:270rpx;
+ left: 50rpx;
+ font-size: 35rpx;
+}
+.xiaoqu{
+  position: absolute;
+ top:270rpx;
+ right: 50rpx;
+ font-size: 33rpx;
+ color: #999999;
+}
+.one image{
+ width:20rpx;
+ height:30rpx;
+ position: absolute;
+ top:278rpx;
+ right: 20rpx;
+}
+.luying1 image{
+  height: 13pt;
+  width: 9pt;
+  position: absolute;
+  top: 730rpx;
+  left: 280rpx;
+}
+.zhaop image{
+  height: 150rpx;
+  width: 150rpx;
+  position: absolute;
+ top: 870rpx;
+left: 30rpx;
+}
+.zp1{
+  height: 150rpx;
+  width: 150rpx;
+  position: absolute;
+  top: 870rpx;
+  left: 30rpx;
+}
+.zp2{
+  height: 150rpx;
+  width: 150rpx;
+  position: absolute;
+  top: 870rpx;
+  left: 230rpx;
+  background: #EBEBEB
+}
+.zp3{
+  height: 150rpx;
+  width: 150rpx;
+  position: absolute;
+  top: 870rpx;
+  left: 430rpx;
+  background: #EBEBEB
+}
+/* pages/yjfk/yjfk.wxss */

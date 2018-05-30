@@ -1,0 +1,157 @@
+/* pages/mrsz/mrsz.wxss */
+page{
+  background: #efefef
+}
+.table{
+  background-color:#ffffff;
+    height:500rpx;
+    width:750rpx;
+    display: flex;
+    flex-wrap: wrap;
+}
+.beijing{
+   background-color:#ffffff;
+    height:380rpx;
+    width:750rpx;
+    display: flex;
+    flex-wrap: wrap;
+     margin-top: 20rpx;
+}
+.mrsz image{
+ width:11pt;
+ height:11pt;
+ position: absolute;
+ top:40rpx;
+ right: 160rpx;
+}
+.text1{
+ position: absolute;
+ top:30rpx;
+ left: 30rpx;
+ text-align: left;
+ font-weight:650
+}
+.tj{
+ position: absolute;
+ top:35rpx;
+ left: 600rpx;
+ font-size: 30rpx;
+ color: #333333
+}
+.warp image {
+width:700rpx;
+height:150rpx;
+display:inline-block;
+overflow:hidden;
+position: absolute;
+top: 100rpx;
+left: 20rpx;
+right: 10rpx;
+}
+.two image{
+ width:700rpx;
+height:150rpx;
+position: absolute;
+top: 320rpx;
+left: 20rpx;
+right: 10rpx;
+}
+.zd1{
+position: absolute;
+top: 120rpx;
+left: 70rpx;
+padding-bottom:10rpx;
+font-size: 30rpx;
+color: #ffffff;
+}
+.zd2{
+position: absolute;
+top: 340rpx;
+left: 70rpx;
+font-size: 30rpx;
+color: #ffffff
+}
+.D{
+position: absolute;
+top: 190rpx;
+left: 70rpx;
+padding-bottom:10rpx;
+font-size: 30rpx;
+color: #ffffff
+}
+.N{
+position: absolute;
+top: 400rpx;
+left: 70rpx;
+font-size: 30rpx;
+color: #ffffff
+}
+.zhushi{
+position: absolute;
+top: 260rpx;
+left: 45rpx;
+font-size: 30rpx;
+color: #999999
+}
+.three image{
+width:700rpx;
+height:180rpx;
+position: absolute;
+top: 630rpx;
+left: 20rpx;
+right: 10rpx;
+}
+.cd{
+position: absolute;
+top: 550rpx;
+left: 30rpx;
+right: 10rpx;
+}
+.jf{
+  position: absolute;
+top: 700rpx;
+left: 70rpx;
+font-size: 35rpx;
+color: #ffffff
+}
+.sm image{
+ width:13pt;
+ height:13pt;
+ position: absolute;
+ top:830rpx;
+ left: 30rpx;
+}
+.tt{
+ position: absolute;
+ top: 830rpx;
+ left: 80rpx;
+ font-size: 30rpx;
+ color: #999999
+}
+.fwzc image{
+ width:20rpx;
+ height:40rpx;
+ position: absolute;
+ top:960rpx;
+ left:700rpx;
+}
+.sybz{
+  width: 750rpx;
+  height: 100rpx;
+  text-align: left;
+  line-height: 100rpx;
+  position: absolute;
+  top: 930rpx;
+  color: #999999;
+  background: white
+}
+.luntan{
+  width: 750rpx;
+  height: 100rpx;
+  text-align: left;
+  line-height: 100rpx;
+  position: absolute;
+  top: 1030rpx;
+  color: #999999;
+  background: white
+}

@@ -1,0 +1,33 @@
+<!--pages/shouye/shouye.wxml-->
+
+<view class='container'>
+  <view class='topView'>
+    <block wx:for='{{topDataArr}}' wx:key='topView'>
+      <view class='topItem' style='top:{{55 + index * 257}}rpx'>
+        <image id="topItem{{index}}" class='topImage' src="{{item.img}}" mode='aspectFill' bindtap='topItemClick'></image>
+        <text class='topText'>{{item.text}}</text>
+        <text class='topDes'>{{item.des}}</text>
+      </view>
+
+    </block>
+  </view>
+
+  <view class='middleView'>
+    <block wx:for="{{middleDataArr}}" wx:key="middleView">
+      <view id='middleItem{{index}}' class='middleItem' style='left:{{16 + index%2 * 368}}rpx; top:{{20 + item.row * 194}}rpx' bindtap='middleItemClick'>
+        <image class='middleImage' src='{{item.img}}' mode='aspectFit'></image>
+        <text class='middleText'>{{item.text}}</text>
+        <text class='middleDes'>{{item.des}}</text>
+      </view>
+    </block>
+  </view>
+
+  <view class='bottomView' bindtap='iconViewClick'>
+      <image class='iconImage' src='../img/side.png'></image>
+      <text class='userName'>萝卜的茄子</text>
+      <text class='balance'>当前余额：15.2元</text>
+      <image class='nextImage' src='../img/fwzc.png'></image>
+  </view>
+
+  
+</view>

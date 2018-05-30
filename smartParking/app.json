@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/shouye/shouye",
+    "pages/xfjl/xfjl",
+    "pages/grxx/grxx",
+    "pages/gzfk/gzfk",
+    "pages/yjfk2/yjfk2",
+    "pages/yjfk/yjfk",
+    "pages/lxkf/lxkf",
+    "pages/cdms/cdms",
+    "pages/mrsz/mrsz",
+    "pages/fwzc/fwzc",
+    "pages/xcjf3/xcjf3",
+    "pages/dkzd/dkzd",
+    "pages/xcjf/xcjf",
+    "pages/xingche/xingche",
+    "pages/tingche/tingche",
+    "pages/tt/tt"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#5E97E6",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#FFF",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}
