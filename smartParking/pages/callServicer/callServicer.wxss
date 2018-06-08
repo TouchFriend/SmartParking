@@ -1,0 +1,67 @@
+/* pages/lxkf/lxkf.wxss */
+page{
+  background: rgb(235, 235, 235)
+}
+
+.headerView{
+  background: rgb(235, 235, 235);
+  height: 10rpx;
+}
+
+.servicePhone{
+  height: 110rpx;
+  position: relative;
+  background: white;
+}
+
+.serviceQQ{
+  height: 110rpx;
+  position: relative;
+  background: white;
+}
+
+.serviceWx{
+  height: 411rpx;
+  background: white;
+}
+
+.title{
+  margin-left: 25rpx;
+  color: rgb(51, 51, 51);
+  font-size: 36rpx;
+  line-height: 109rpx;
+}
+
+.phone{
+  right: 37rpx;
+  color: rgb(94, 151, 230);
+  font-size: 36rpx;
+  line-height: 110rpx;
+  position: absolute;
+  font-family: PingFangSC-Regular;
+  font-weight: Regular;
+}
+
+.seperatorView{
+  background: rgb(235, 235, 235);
+  height: 1rpx;
+}
+
+.qrCode{
+  width: 208rpx;
+  height: 208rpx;
+  margin-left: 271rpx;
+  display: block;
+}
+
+.serviceTime{
+  height: 31rpx;
+  line-height: 31rpx;
+  color: rgb(153, 153, 153);
+  font-size: 32rpx;
+  margin-left: 32rpx;
+  position: relative;
+  top: 50rpx;
+}
+
+

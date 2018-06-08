@@ -1,20 +1,20 @@
-// pages/xingche/xingche.js
+// pages/yjfk/yjfk.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
-  },
-
-  payBtnClick:function(){
-    wx:wx.navigateTo({
-      url: '../tingche/tingche',
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
-    })
+      topDataArr:[
+        {
+          'title': '真实姓名',
+          'placeholder': '请填写您的真实姓名'
+        },
+        {
+          'title': '联系电话',
+          'placeholder': '请输入有效联系方式'
+        }
+      ]
   },
 
   /**

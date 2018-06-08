@@ -1,0 +1,130 @@
+/* pages/fwzc/fwzc.wxss */
+page{
+  background: #EFEFEF
+}
+.container{
+  background-color: rgb(235, 235, 235);
+}
+
+.itemStyle{
+  background-color: white;
+  height: 117rpx;
+  position: relative;
+}
+
+.headerView{
+  background-color: rgb(235, 235, 235);
+  height: 12rpx;
+}
+
+.firstHeaderView{
+  background-color: rgb(235, 235, 235);
+  height: 20rpx;
+}
+
+.title{
+  margin-left: 42rpx;
+  color: rgb(51, 51, 51);
+  font-size: 32rpx;
+  line-height: 115rpx;
+  
+}
+
+.seperatorView{
+  background-color: rgb(235, 235, 235);
+  height: 1rpx;
+  margin-left: 40rpx;
+  
+}
+
+.nextImage{
+  width: 16rpx;
+  height: 30rpx;
+  top: 44rpx;
+  right: 26rpx;
+  position: absolute;
+}
+
+.middleView{
+  position: relative;
+  top: 12rpx;
+}
+
+.fwzc image{
+ width:20rpx;
+ height:40rpx;
+ position: absolute;
+ top:70rpx;
+ left:700rpx;
+}
+button::after{ border: none; }
+
+.sybz{
+  width: 750rpx;
+  height: 135rpx;
+  text-align: left;
+  line-height: 135rpx;
+  position: absolute;
+  top: 30rpx;
+}
+.gzfk image{
+ width:20rpx;
+ height:40rpx;
+ position: absolute;
+ top:210rpx;
+ left:700rpx;
+}
+.fankui{
+  width: 750rpx;
+  height: 135rpx;
+  text-align: left;
+  line-height: 135rpx;
+  position: absolute;
+  top: 150rpx;
+}
+.yj image{
+ width:20rpx;
+ height:40rpx;
+ position: absolute;
+ top:340rpx;
+ left:700rpx;
+}
+.yijian{
+  width: 750rpx;
+  height: 135rpx;
+  text-align: left;
+  line-height: 135rpx;
+  position: absolute;
+  top: 300rpx;
+}
+.kf image{
+ width:20rpx;
+ height:40rpx;
+ position: absolute;
+ top:470rpx;
+ left:700rpx;
+}
+.kefu{
+  width: 750rpx;
+  height: 135rpx;
+  text-align: left;
+  line-height: 135rpx;
+  position: absolute;
+  top: 430rpx;
+}
+.lt image{
+ width:20rpx;
+ height:40rpx;
+ position: absolute;
+ top:630rpx;
+ left:700rpx;
+}
+.luntan{
+  width: 750rpx;
+  height: 135rpx;
+  text-align: left;
+  line-height: 135rpx;
+  position: absolute;
+  top: 580rpx;
+}
+

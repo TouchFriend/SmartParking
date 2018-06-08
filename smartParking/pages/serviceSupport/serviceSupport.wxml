@@ -1,0 +1,37 @@
+<!--pages/fwzc/fwzc.wxml-->
+<view class='container'>
+
+
+  <block wx:for="{{dataArr}}" wx:key='father' wx:for-index='idx' wx:for-item='itemArr'>
+    <view>
+      <view class="{{idx == 0 ? 'firstHeaderView' : 'headerView'}}"></view>
+      <block wx:for='{{dataArr[idx]}}' wx:key='child'>
+        <view class='itemStyle' data-url='{{item.url}}' bindtap='viewClick'>
+          <text class='title'>{{item.title}}</text>
+          <view class='seperatorView'></view>
+          <image class='nextImage' src='../img/nextArror.png'></image>
+        </view>
+      </block>
+    </view>
+  </block>
+
+
+</view>
+
+
+
+<!-- <button class='sybz' hover-class="none">使用帮助</button>
+<button class='fankui' hover-class="none">故障反馈</button>
+<button class='yijian' hover-class="none">意见反馈</button>
+<button class='kefu' hover-class="none">联系客服</button>
+<button class='luntan' hover-class="none">论坛</button>
+<view class='fwzc'>
+<image src='../img/fwzc.png'></image></view>
+<view class='gzfk'>
+<image src='../img/fwzc.png'></image></view>
+<view class='yj'>
+<image src='../img/fwzc.png'></image></view>
+<view class='kf'>
+<image src='../img/fwzc.png'></image></view>
+<view class='lt'>
+<image src='../img/fwzc.png'></image></view>  -->

@@ -1,0 +1,50 @@
+/* pages/gzfk/gzfk.wxss */
+page{
+  background: #efefef
+}
+
+.container{
+  background: rgb(235, 235, 235);
+}
+
+.firstheaderView
+{
+  background: rgb(235, 235, 235);
+  height: 20rpx;
+}
+
+.nameView{
+  height: 240rpx;
+  background: white;
+}
+
+.headerView{
+  height: 12rpx;
+}
+
+.addressView{
+  height: 117rpx;
+  background: white;
+}
+
+.suggestView{
+  height: 462rpx;
+  background: white;
+}
+
+.imageView{
+  height: 288rpx;
+  background: white;
+}
+
+.submitView{
+  height: 86rpx;
+  background: white;
+}
+
+.title{
+  margin-left: 43rpx;
+  color: rgb(51, 51, 51);
+  font-size: 32rpx;
+
+}

@@ -1,0 +1,19 @@
+<!--pages/dkzd/dkzd.wxml-->
+<view class='containerView'>
+    <view class='topView'>
+    <text class='topText'>请选择要打开的道闸</text>
+  </view>
+  <view class='contentView'>
+    <block wx:for='{{doorDataArr}}' wx:key='contentView'>
+      <view class='doorItem' style='top:{{index==0 ? index * 241 : 241 + (index - 1) * 216 }}rpx' bindtap='openDoorClick' >
+        <image class='itemImage' src='{{item.img}}' mode='aspectFill'></image>
+        <text class='itemTitle'>{{item.title}}</text>
+        <text class='itemName'>{{item.name}}</text>
+      </view>
+      <text class='tip' wx:if="{{index == 0}}" style='top:{{178 + index * 230 }}rpx'>注释：将最近一次打开的道闸设置为默认道闸</text>
+    </block>
+  </view>
+</view>
+
+
+

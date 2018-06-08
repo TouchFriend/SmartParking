@@ -1,27 +1,49 @@
-// pages/xingche/xingche.js
+// pages/dkzd/dkzd.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+      doorDataArr:[
+        {
+          'img': '../img/one.png',
+          'title': '道闸1 ',
+          'name': '融侨锦江A区东门',
+        },
+        {
+          'img': '../img/one.png',
+          'title': '道闸1 ',
+          'name': '融侨锦江A区东门',
+        },
+        {
+          'img': '../img/one.png',
+          'title': '道闸1 ',
+          'name': '融侨锦江A区东门',
+        }
+      ],
   },
 
-  payBtnClick:function(){
-    wx:wx.navigateTo({
-      url: '../tingche/tingche',
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
-    })
-  },
+  openDoorClick:function(event){
 
+    wx.showActionSheet({
+      itemList: ['微信'],
+      success:function(res){
+        console.log(res.tapIndex);
+      },
+      fail:function(res){
+
+      },
+      complete:function(){
+
+      }
+    });
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    
   },
 
   /**

@@ -1,21 +1,26 @@
 {
   "pages": [
-    "pages/shouye/shouye",
-    "pages/xfjl/xfjl",
-    "pages/grxx/grxx",
-    "pages/gzfk/gzfk",
+    "pages/home/home",
+    "pages/openGate/openGate",
+    "pages/charge/charge",
+    "pages/defaultSetting/defaultSetting",
+    "pages/comsumptionRecord/comsumptionRecord",
+    "pages/serviceSupport/serviceSupport",
+    "pages/personalInfo/personalInfo",
+    "pages/parkingExpense/parkingExpense",
+    "pages/errorFeedback/errorFeedback",
+    "pages/opinionFeedback/opinionFeedback",
+    "pages/callServicer/callServicer",
+    
     "pages/yjfk2/yjfk2",
-    "pages/yjfk/yjfk",
-    "pages/lxkf/lxkf",
+    
+    
     "pages/cdms/cdms",
-    "pages/mrsz/mrsz",
-    "pages/fwzc/fwzc",
+    
+    
     "pages/xcjf3/xcjf3",
-    "pages/dkzd/dkzd",
-    "pages/xcjf/xcjf",
-    "pages/xingche/xingche",
-    "pages/tingche/tingche",
-    "pages/tt/tt"
+    "pages/xcjf/xcjf"
+
   ],
   "window": {
     "navigationBarBackgroundColor": "#5E97E6",

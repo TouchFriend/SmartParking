@@ -1,27 +1,45 @@
-// pages/xingche/xingche.js
+// pages/lxkf/lxkf.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    dataArr:[
+      {
+        'title': '客服电话',
+        'phone': '0591-8343-2055'
+      },
+      {
+        'title': '客服QQ',
+        'phone': '602253614'
+      }
+    ]
   },
 
-  payBtnClick:function(){
-    wx:wx.navigateTo({
-      url: '../tingche/tingche',
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
+
+  callPhone:function(event){
+    // console.log(event);
+    var id = event.currentTarget.id;
+    var phoneNum = this.data.dataArr[id].phone;
+    // console.log(phoneNum);
+    wx.makePhoneCall({
+      phoneNumber: phoneNum,
+      success:function(res)
+      {
+
+      },
+      fail: function (res) {
+
+      },
     })
-  },
 
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+
   },
 
   /**

@@ -1,0 +1,82 @@
+/* pages/xfjl/xfjl.wxss */
+.swiper-tab { 
+  width: 100%;
+  height: 98rpx;    
+  z-index: 1;    
+  border-bottom: 2rpx solid rgb(218, 218, 218);  
+  position: fixed;
+}    
+
+.tab-item {    
+  width: 33.3%;    
+  font-size: 36rpx;    
+  color: rgb(51, 51, 51); 
+  display: inline-block;
+  background: #fff;
+  text-align: center;
+  line-height: 96rpx;
+  padding-bottom: 2rpx;
+}    
+   
+.tab-item-selected {    
+  color: black;    
+  border-bottom: 5rpx solid #5E97E6;    
+}  
+
+
+.contentView{
+  padding-top: 98rpx;
+}
+
+.list-item{
+  min-height: 190rpx;
+  position:relative;
+  border-bottom:1px solid rgb(218, 218, 218);
+  overflow:hidden;
+}
+
+.list-item-title{
+  padding-top: 59rpx;
+  padding-left: 46rpx;
+  padding-bottom: 45rpx;
+  height: 31rpx;
+
+  font-size: 32rpx;
+  color: rgb(51, 51, 51);
+  display: block;
+}
+
+.list-item-numberTitle{
+  top: 60rpx;
+  right: 60rpx;
+  font-size: 38rpx;
+  color: rgb(51, 51, 51);
+  text-align: right;
+  position: absolute;
+}
+
+.list-item-dateTitle{
+  padding-left: 46rpx;
+  font-size: 24rpx;
+  color: rgb(153, 153, 153);
+  display: block;
+}
+
+.list-item-balanceTitle{
+  right: 61rpx;
+  bottom: 28rpx;
+  font-size: 25rpx;
+  color: rgb(51, 51, 51);
+  text-align: right;
+  position: absolute;
+}
+
+.seperatorView
+{
+  left: 0rpx;
+  right: 0rpx;
+  top: 189rpx;
+  height: 1rpx;
+  background-color: rgb(218, 218, 218);
+  position: absolute;
+}

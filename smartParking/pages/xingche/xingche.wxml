@@ -6,5 +6,5 @@
 <text class='time'>已停1天2小时3分钟</text>
 
 <text class='didian'>地点： 融侨锦江A区</text>
-<button class='anniu'>付费离开</button>
+<button class='anniu' bindtap='payBtnClick'>付费离开</button>
 <button class='guize'>付费规则</button>

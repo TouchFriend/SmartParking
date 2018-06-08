@@ -1,22 +1,20 @@
-// pages/xingche/xingche.js
+
+// pages/tingche/tingche.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
   },
 
-  payBtnClick:function(){
-    wx:wx.navigateTo({
-      url: '../tingche/tingche',
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
+  confirmBtnClick:function(){
+    var currentPages = getCurrentPages();
+    console.log(currentPages.length);
+    wx:wx.navigateBack({
+      delta: currentPages.length,
     })
   },
-
   /**
    * 生命周期函数--监听页面加载
    */

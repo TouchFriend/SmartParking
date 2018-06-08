@@ -1,0 +1,55 @@
+<!--pages/yjfk/yjfk.wxml-->
+
+<view class='container'>
+  <view class='firstheaderView'></view>
+  <view class='nameView'>
+    <block wx:for="{{topDataArr}}">
+      <view>
+        <text class='title'>真实姓名</text>
+        <input class='inputStyle'>请填写您的真实姓名</input>
+      </view>
+    </block>
+  </view>
+  <view class='headerView'></view>
+  <view class='addressView'></view>
+  <view class='headerView'></view>
+  <view class='suggestView'></view>
+  <view class='imageView'></view>
+  <view class='submitView'></view>
+</view>
+
+<!-- <view class="table">
+<text class='miaoshu'>故障描述</text>
+<text class='zhaopian'>上传故障照片（1~3张）</text>
+<button class='tijiao'>提交</button>
+<textarea  maxlength="500"class="weui-textarea" placeholder="文字描述故障问题..." >
+</textarea>
+</view>
+<view class='view_item'>
+<input class="input_" placeholder="请填写您的真实姓名" placeholder-style="color: gray" bindinput="onNamelistener" placeholder-class='input_placeholder' />
+<text class='inputext'>姓名</text>
+</view>
+<view class='view_item2'>
+<input class="input_2" type='number' placeholder="请输入有效联系方式" placeholder-style="color: gray" bindinput="onNamelistener" placeholder-class='input_placeholder' />
+<text class='inputext2'>联系电话</text>
+</view>
+<button class='shequ'hover-class="none"></button>
+<view class='sq'>居住社区</view>
+<text class='xiaoqu'>怡园小区</text>
+<view class="one">
+ <image src='../img/fwzc.png' ></image>
+ </view>
+ <view class="luying1">
+ <button class='yuying' hover-class='none'>上传语音</button>
+ <image src='../img/luying.png' ></image>
+ </view>
+ <button class='zp1'>
+ </button>
+ <table class='zp2'></table>
+ <table class='zp3'></table>
+ <view class="zhaop">
+ <image src='../img/sczp.png' ></image>
+  </view>
+  -->
+
+
