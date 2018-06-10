@@ -2,210 +2,154 @@
 page{
   background: #efefef
 }
-.xm{
- position: absolute;
- top: 60rpx;
+
+.container{
+  background: rgb(235, 235, 235);
 }
-.dianhua{
-  position: absolute;
-  top:130rpx;
-}
-.table{
-  background-color:#ffffff;
-   position: absolute;
-   top: 450rpx;
-   height:850rpx;
-   width:750rpx;
-   display: flex;
-   flex-wrap: wrap;
-}
-.shequ{
- position: absolute;
- top:235rpx;
-  height: 150rpx;
-  width: 750rpx;
- background: #ffffff;
-}
-.shebei{
-  position: absolute; 
-  top:340rpx;
-  height: 100rpx;
-  width: 750rpx;
-  background: #ffffff
-}
-.shebeihao{
- position: absolute;
- top:350rpx;
-}
-.miaoshu{
- position: absolute;
- top: 25rpx;
- left: 30rpx;
-}
-.wenti{      
- position: absolute;
- top: 150rpx;
- left: 30rpx;
-}
-.yuying{
- height: 90rpx;
- width:700rpx;
- position: absolute;
- top: 800rpx;
- left: 30rpx;
- background: rgb(243, 243, 243)
-}
-.rijiao{
-  height: 100rpx;
-  width: 700rpx;
-  position: absolute;
-  bottom: 20rpx;
-  left: 30rpx;
-  background: #5E97E6;
-  color: white
-}
-.zhaopian{
- position: absolute;
- top: 450rpx;
- font-size: 11rxp;
- margin-top: 20rpx;
-}
-.weui-textarea{
- width: 700rpx;
- position: absolute;
- top: 100rpx;
- left: 30rpx;
- background: rgb(248, 248, 248);
- padding-bottom: 450;
-}
- .view_item{
-  width: 750rpx;
-  height: 120rpx;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  padding-left: 30rpx;
-  padding-right: 30rpx;
-  position: absolute;
-  top: 20rpx;
-  background: #ffffff
-}
-.input_{
-  color: #333333;
-  position: absolute;
- left: 220rpx;
-  background: #ffffff
-}
-.view_item2{
-  width: 750rpx;
-  height: 120rpx;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  padding-left: 30rpx;
-  padding-right: 30rpx;
-  position: absolute;
-  top: 100rpx;
-  background: #ffffff
-}
-.input_2{
-  color: #333333;
-  position: absolute;
-  left: 220rpx;
-  background: #ffffff
-}
-.input3{
-  width: 750rpx;
-  height: 100rpx;
-  position: absolute;
-  top: 230rpx;
+
+.nameView{
+  height: 235rpx;
   background: white;
-  text-align: left
+  margin-top: 20rpx;
 }
-.input4{
-  width: 750rpx;
-  height: 100rpx;
-  position: absolute;
-  top: 335rpx;
+
+.addressView{
+  height: 235rpx;
   background: white;
-  text-align: left
+  margin-top: 12rpx;
 }
-.sq{
- position: absolute;
- top:270rpx;
- left: 50rpx;
- font-size: 35rpx;
+
+.suggestView{
+  height: 462rpx;
+  background: white;
+  margin-top: 12rpx;
 }
-.gz{
-   position: absolute;
- top:350rpx;
- left: 50rpx;
- font-size: 35rpx;
+
+.imageView{
+  height: 288rpx;
+  background: white;
 }
-.xiaoqu{
+
+.imageLabel{
+  margin-top: 35rpx;
+  margin-left: 42rpx;
+  font-size: 32rpx;
+  font-weight:  Regular;
+  height: 30rpx;
+  line-height: 30rpx;
+  color: rgb(51, 51, 51);
+  display: inline-block;
+}
+
+.submitView{
+  height: 291rpx;
+  background: white;
+}
+
+.tempView{
+  height: 117rpx;
+  position: relative;
+}
+
+.title{
+  margin-left: 43rpx;
+  width: 394rpx;
+  color: rgb(51, 51, 51);
+  font-size: 32rpx;
+  line-height: 116rpx;
+
+  
+}
+
+.inputStyle{
+  top: 0rpx;
+  right: 30rpx;
+  height: 116rpx;
+  font-size: 32rpx;
+  font-family: "PingFangSC-Regular";
+  font-weight: Regular;
   position: absolute;
- top:270rpx;
- right: 50rpx;
- font-size: 33rpx;
- color: #999999;
+  text-align: right;
 }
-.sz{
+
+.seperatorView{
+  height: 1rpx;
+  margin-left: 40rpx;
+  background: rgb(235, 235, 235);
+}
+
+.suggestLabel{
+  line-height: 31prx;
+  margin-top: 43rpx;
+  margin-left: 43rpx;
+  margin-bottom: 34rpx;
+  font-size: 32rpx;
+  color: rgb(51, 51, 51);
+  font-weight: Regular;
+  display: inline-block;
+
+}
+
+.suggestInput{
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 0rpx;
+  height: 308rpx;
+  background: rgb(235, 235, 235);
+}
+
+.suggestTextarea{
+  width: 100% - 68rpx;
+  height: 206rpx;
+  margin-left: 34rpx;
+  margin-right: 34rpx;
+  margin-top: 26rpx;
+  background: 246rpx;
+  font-size: 32rpx;
+  color: rgb(153, 153, 153);
+  display: inline-block;
+}
+
+.voiceInpuView{
+  width: 100%;
+  height: 76rpx;
+  position: relative;
+}
+
+.voiceBtn{
+  width: 100%;
+  height: 100%;
+  border-radius: 0rpx;
+}
+
+button::after{
+  border: none;
+}
+.voideImage{
+  width: 25rpx;
+  height: 38rpx;
   position: absolute;
- top:360rpx;
- right: 50rpx;
- font-size: 28rpx;
- color: #999999;
+  left: 270rpx;
+  top: 18rpx;
 }
-.one image{
- width:20rpx;
- height:30rpx;
- position: absolute;
- top:278rpx;
- right: 20rpx;
-}
-.two image{
- width:20rpx;
- height:30rpx;
- position: absolute;
- top:365rpx;
- right: 20rpx;
-}
-.luying1 image{
-  height: 13pt;
-  width: 9pt;
+
+.voideLabel{
+  font-size: 30rpx;
+  font-weight: Regular;
+  color: rgb(102, 102, 102);
   position: absolute;
-  top: 830rpx;
-  left: 280rpx;
+  right: 264rpx;
+  top: 16rpx;
 }
-.zhaop image{
-  height: 150rpx;
-  width: 150rpx;
-  position: absolute;
- top: 1000rpx;
-left: 30rpx;
-}
-.zp1{
-  height: 150rpx;
-  width: 150rpx;
-  position: absolute;
-  top: 1000rpx;
-  left: 30rpx;
-}
-.zp2{
-  height: 150rpx;
-  width: 150rpx;
-  position: absolute;
-  top: 1000rpx;
-  left: 230rpx;
-  background: #EBEBEB
-}
-.zp3{
-  height: 150rpx;
-  width: 150rpx;
-  position: absolute;
-  top: 1000rpx;
-  left: 430rpx;
-  background: #EBEBEB
+
+.submitBtn{
+  height: 86rpx;
+  width: 100% - 60rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  background: rgb(94, 151, 230);
+  border-radius: 0rpx;
+  color: white;
+  font-weight: Regular;
+  font-size: 32rpx;
 }

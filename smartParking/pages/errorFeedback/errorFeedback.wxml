@@ -1,41 +1,39 @@
 <!--pages/gzfk/gzfk.wxml-->
-<view class="table">
-<text class='miaoshu'>故障描述</text>
-<text class='zhaopian'>上传故障照片（1~3张）</text>
-<button class='rijiao'>提交</button>
-<textarea  maxlength="500"class="weui-textarea" placeholder="文字描述故障问题..." >
-</textarea>
-</view>
-<view class='view_item'>
-<input class="input_" placeholder="请填写您的真实姓名" placeholder-style="color: gray" bindinput="onNamelistener" placeholder-class='input_placeholder' />
-<text class='inputext'>姓名</text>
-</view>
-<view class='view_item2'>
-<input class="input_2" type='number' placeholder="请输入有效联系方式" placeholder-style="color: gray" bindinput="onNamelistener" placeholder-class='input_placeholder' />
-<text class='inputext2'>联系电话</text>
-</view>
-<button class='shequ'hover-class="none"></button>
-<button class='shebei'hover-class="none"></button>
-<view class='sq'>居住社区</view>
-<view class='gz'>故障设备号</view>
-<text class='xiaoqu'>怡园小区</text>
-<text class='sz'>11700101</text>
-<view class="one">
- <image src='../img/fwzc.png' ></image>
- </view>
- <view class="two">
- <image src='../img/fwzc.png' ></image>
- </view>
- <view class="luying1">
- <button class='yuying' hover-class='none'>上传语音</button>
- <image src='../img/luying.png' ></image>
- </view>
- <button class='zp1'>
- </button>
- <table class='zp2'></table>
- <table class='zp3'></table>
- <view class="zhaop">
- <image src='../img/sczp.png' ></image>
+<view class='container'>
+  <view class='nameView'>
+    <block wx:for="{{topDataArr}}" wx:key="nameView">
+      <view class='tempView'>
+        <text class='title'>{{item.title}}</text>
+        <input class='inputStyle' placeholder="{{item.placeholder}}"></input>
+        <view wx:if="{{index == 0}}" class='seperatorView'></view>
+      </view>
+    </block>
   </view>
- 
+  <view class='addressView'>
+    <block wx:for="{{addressDataArr}}" wx:key="nameView">
+      <view class='tempView'>
+        <text class='title'>{{item.title}}</text>
+        <input class='inputStyle' placeholder="{{item.placeholder}}"></input>
+        <view wx:if="{{index == 0}}" class='seperatorView'></view>
+      </view>
+    </block>
 
+  </view>
+  <view class='suggestView'>
+    <text class='suggestLabel'>建议描述</text>
+    <view class='suggestInput'>
+      <textarea class='suggestTextarea' placeholder='文字描述故障问题...'></textarea>
+      <view class='voiceInpuView'>
+        <button class='voiceBtn'></button>
+        <image src='../../image/feedback_icon_voice.png' class='voideImage'></image>
+        <text class='voideLabel'>上传语音</text>
+      </view>
+    </view>
+  </view>
+  <view class='imageView'>
+    <text class='imageLabel'>上传照片（1~3张）</text>
+  </view>
+  <view class='submitView'>
+    <button class='submitBtn'>提交</button>
+  </view>
+</view>

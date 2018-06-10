@@ -1,5 +1,5 @@
 <!--pages/cdms/cdms.wxml-->
-<view class='screen'>
+ <view class='screen'>
 </view>
 <text class='didian'>地点：融侨锦江A区</text>
 <text class='index'>充电插座：11790101-1#</text>
@@ -29,6 +29,6 @@
  </view>
  <view class="cd4">
  <image src='../img/chongdian.png' ></image>
- </view>
+ </view> 
  
  

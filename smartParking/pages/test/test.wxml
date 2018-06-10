@@ -1,0 +1,10 @@
+<!--pages/test.wxml-->
+<view class='container'>
+  <view class='header'>
+
+  </view>
+  <view class='body'>
+  </view>
+  <view class='footer'>
+  </view>
+</view>

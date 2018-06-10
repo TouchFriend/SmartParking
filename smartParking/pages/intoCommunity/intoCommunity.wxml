@@ -1,0 +1,11 @@
+<!--pages/xcjf3/xcjf3.wxml-->
+<view class='cotainer'>
+  <text class='rule'>付费规则</text>
+  <view class='body'>
+    <image src='../../image/charging_bg_bottom_frame.png' class='bgImage'></image>
+    <image src='../../image/charging_icon_scavenging_success.png' class='carImage'></image>
+    <text class='tipText'>扫码成功，欢迎进入</text>
+    <text class='deviceText'>设备：HAD1525822</text>
+    <text class='addtessText'>地点：融侨锦江A区</text>
+  </view>
+</view>

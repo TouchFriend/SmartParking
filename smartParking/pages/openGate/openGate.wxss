@@ -64,3 +64,10 @@ page{
   position: absolute;
 }
 
+.tip{
+  position: absolute;
+  font-size: 28rpx;
+  color: rgb(153, 153, 153);
+  left: 46rpx;
+}
+

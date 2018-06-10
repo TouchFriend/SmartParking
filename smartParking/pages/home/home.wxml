@@ -3,8 +3,8 @@
 <view class='container'>
   <view class='topView'>
     <block wx:for='{{topDataArr}}' wx:key='topView'>
-      <view class='topItem' style='top:{{55 + index * 257}}rpx'>
-        <image id="topItem{{index}}" class='topImage' src="{{item.img}}" mode='aspectFill' bindtap='topItemClick'></image>
+      <view class='topItem' style='top:{{55 + index * 257}}rpx' id="topItem{{index}}" bindtap='topItemClick'>
+        <image class='topImage' src="{{item.img}}" mode='aspectFill' ></image>
         <text class='topText'>{{item.text}}</text>
         <text class='topDes'>{{item.des}}</text>
       </view>

@@ -54,18 +54,60 @@ Page({
     console.log(id);
 
     if (id === 'topItem0') {//扫一扫
-      wx: wx.scanCode({
-        onlyFromCamera: true,
-        scanType: [],
-        success: function (res) {
+      // wx: wx.scanCode({
+      //   onlyFromCamera: true,
+      //   scanType: [],
+      //   success: function (res) {
 
+      //   },
+      //   fail: function (res) {
+
+      //   },
+      //   complete: function (res) {
+
+      //   },
+      // })
+
+      wx.showActionSheet({
+        itemList: ["进入小区", "离开小区", "充电"],
+        success:function(res){
+          console.log(res.tapIndex);
+          switch (res.tapIndex){
+            case 0:{
+              wx:wx.navigateTo({
+                url: '../intoCommunity/intoCommunity',
+                success: function(res) {},
+                fail: function(res) {},
+                complete: function(res) {},
+              })
+            }
+            break;
+            case 1: {
+              wx: wx.navigateTo({
+                url: '../payLeave/payLeave',
+                success: function (res) { },
+                fail: function (res) { },
+                complete: function (res) { },
+              })
+            }
+              break;
+            case 2: {
+              wx: wx.navigateTo({
+                url: '../chargeMode/chargeMode',
+                success: function (res) { },
+                fail: function (res) { },
+                complete: function (res) { },
+              })
+            }
+              break;
+            default:{
+
+            }
+          }
         },
         fail: function (res) {
 
-        },
-        complete: function (res) {
-
-        },
+        }
       })
     }
     else if (id === 'topItem1') {//打开道闸

@@ -1,34 +1,11 @@
-// pages/gzfk/gzfk.js
+// pages/test-absolute/test-absolute.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    topDataArr: [
-      {
-        'title': '真实姓名',
-        'placeholder': '请填写您的真实姓名'
-      },
-      {
-        'title': '联系电话',
-        'placeholder': '请输入有效联系方式'
-      }
-    ],
-    addressDataArr: [
-      {
-        'title': '居住社区',
-        'placeholder': '请填写您的居住社区'
-      },
-      {
-        'title': '故障设备号',
-        'placeholder': '请输入故障设备号'
-      }
-    ]
-  },
-
-  inputText: function (event) {
-    console.log(event.detail.value);
+  
   },
 
   /**

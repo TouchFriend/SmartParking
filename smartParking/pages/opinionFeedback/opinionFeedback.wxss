@@ -7,29 +7,22 @@ page{
   background: rgb(235, 235, 235);
 }
 
-.firstheaderView
-{
-  background: rgb(235, 235, 235);
-  height: 20rpx;
-}
-
 .nameView{
-  height: 240rpx;
+  height: 235rpx;
   background: white;
-}
-
-.headerView{
-  height: 12rpx;
+  margin-top: 20rpx;
 }
 
 .addressView{
   height: 117rpx;
   background: white;
+  margin-top: 12rpx;
 }
 
 .suggestView{
   height: 462rpx;
   background: white;
+  margin-top: 12rpx;
 }
 
 .imageView{
@@ -37,14 +30,127 @@ page{
   background: white;
 }
 
+.imageLabel{
+  margin-top: 35rpx;
+  margin-left: 42rpx;
+  font-size: 32rpx;
+  font-weight:  Regular;
+  height: 30rpx;
+  line-height: 30rpx;
+  color: rgb(51, 51, 51);
+  display: inline-block;
+}
+
 .submitView{
-  height: 86rpx;
+  height: 291rpx;
   background: white;
+}
+
+.tempView{
+  height: 117rpx;
+  position: relative;
 }
 
 .title{
   margin-left: 43rpx;
+  width: 394rpx;
   color: rgb(51, 51, 51);
   font-size: 32rpx;
+  line-height: 116rpx;
+
+  
+}
+
+.inputStyle{
+  top: 0rpx;
+  right: 30rpx;
+  height: 116rpx;
+  font-size: 32rpx;
+  font-family: "PingFangSC-Regular";
+  font-weight: Regular;
+  position: absolute;
+  text-align: right;
+}
+
+.seperatorView{
+  height: 1rpx;
+  margin-left: 40rpx;
+  background: rgb(235, 235, 235);
+}
+
+.suggestLabel{
+  line-height: 31prx;
+  margin-top: 43rpx;
+  margin-left: 43rpx;
+  margin-bottom: 34rpx;
+  font-size: 32rpx;
+  color: rgb(51, 51, 51);
+  font-weight: Regular;
+  display: inline-block;
 
 }
+
+.suggestInput{
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 0rpx;
+  height: 308rpx;
+  background: rgb(235, 235, 235);
+}
+
+.suggestTextarea{
+  width: 100% - 68rpx;
+  height: 206rpx;
+  margin-left: 34rpx;
+  margin-right: 34rpx;
+  margin-top: 26rpx;
+  background: 246rpx;
+  font-size: 32rpx;
+  color: rgb(153, 153, 153);
+  display: inline-block;
+}
+
+.voiceInpuView{
+  width: 100%;
+  height: 76rpx;
+  position: relative;
+}
+
+.voiceBtn{
+  width: 100%;
+  height: 100%;
+  border-radius: 0rpx;
+}
+
+button::after{
+  border: none;
+}
+.voideImage{
+  width: 25rpx;
+  height: 38rpx;
+  position: absolute;
+  left: 270rpx;
+  top: 18rpx;
+}
+
+.voideLabel{
+  font-size: 30rpx;
+  font-weight: Regular;
+  color: rgb(102, 102, 102);
+  position: absolute;
+  right: 264rpx;
+  top: 16rpx;
+}
+
+.submitBtn{
+  height: 86rpx;
+  width: 100% - 60rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  background: rgb(94, 151, 230);
+  border-radius: 0rpx;
+  color: white;
+  font-weight: Regular;
+  font-size: 32rpx;
+}
+

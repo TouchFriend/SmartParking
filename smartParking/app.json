@@ -11,16 +11,14 @@
     "pages/errorFeedback/errorFeedback",
     "pages/opinionFeedback/opinionFeedback",
     "pages/callServicer/callServicer",
-    
-    "pages/yjfk2/yjfk2",
-    
-    
-    "pages/cdms/cdms",
-    
-    
-    "pages/xcjf3/xcjf3",
-    "pages/xcjf/xcjf"
+    "pages/intoCommunity/intoCommunity",
+    "pages/payLeave/payLeave",
+    "pages/chargeMode/chargeMode",
 
+    "pages/yjfk2/yjfk2"
+    
+    
+    
   ],
   "window": {
     "navigationBarBackgroundColor": "#5E97E6",
