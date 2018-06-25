@@ -93,7 +93,7 @@ Page({
               break;
             case 2: {
               wx: wx.navigateTo({
-                url: '../chargeMode/chargeMode',
+                url: '../defaultChargeMode/defaultChargeMode',
                 success: function (res) { },
                 fail: function (res) { },
                 complete: function (res) { },

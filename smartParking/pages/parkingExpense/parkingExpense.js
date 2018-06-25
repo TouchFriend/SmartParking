@@ -13,7 +13,7 @@ Page({
     console.log(currentPages.length);
     wx:wx.navigateBack({
       delta: currentPages.length,
-    })
+    });
   },
   /**
    * 生命周期函数--监听页面加载

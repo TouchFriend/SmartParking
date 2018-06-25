@@ -14,10 +14,9 @@
     "pages/intoCommunity/intoCommunity",
     "pages/payLeave/payLeave",
     "pages/chargeMode/chargeMode",
-
+    "pages/defaultChargeMode/defaultChargeMode",
+    
     "pages/yjfk2/yjfk2"
-    
-    
     
   ],
   "window": {

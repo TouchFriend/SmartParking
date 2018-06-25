@@ -1,0 +1,18 @@
+<!--pages/defaultChargeMode/defaultChargeMode.wxml-->
+
+<view class='cotainer'>
+  <text class='rule'>更换充电模式</text>
+  <view class='body'>
+    <image src='../../image/charging_bg_bottom_frame.png' class='bgImage'></image>
+    <text class='payNumTitle'>默认充电模式</text>
+    <text class='payNum'>2.5元</text>
+    <view class='timeClass'>
+      <image src='../../image/charging_mode_icon_charging.png' class='chargeImage'></image>
+      <text class='parkingTime'>4小时</text>
+    </view>
+    
+    <text class='deviceText'>地点：融侨锦江A区</text>
+    <text class='addtessText'>充电插座：11790101-1#</text>
+    <button class='payLeave' bindtap='confirmBtnClick'>确定</button>
+  </view>
+</view>

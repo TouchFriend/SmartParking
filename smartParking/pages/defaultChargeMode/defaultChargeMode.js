@@ -1,4 +1,4 @@
-// pages/test.js
+// pages/defaultChargeMode/defaultChargeMode.js
 Page({
 
   /**
@@ -8,6 +8,9 @@ Page({
   
   },
 
+  confirmBtnClick:function(event){
+
+  },
   /**
    * 生命周期函数--监听页面加载
    */
